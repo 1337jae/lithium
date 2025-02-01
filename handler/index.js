@@ -29,7 +29,7 @@ module.exports = async (client) => {
   // Slash Commands Register
   client.on("ready", async () => {
     // Register for a single guild
-    await client.guilds.cache.get("825741743235268639").commands.set(arrayOfSlashCommands);
+    await client.guilds.cache.get("1335005468984086563").commands.set(arrayOfSlashCommands);
 
     // Register for all the guilds the bot is in
     // await client.application.commands.set(arrayOfSlashCommands);
